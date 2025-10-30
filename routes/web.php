@@ -6,6 +6,9 @@ use App\Http\Controllers\TareaController;
 use Illuminate\Support\Facades\Route;
 use Laravel\Fortify\Features;
 use Livewire\Volt\Volt;
+Route::post('id', function () {
+    //
+})->name('edificio.destroy');
 
 Route::get('/', function () {
     return view('welcome');
